@@ -1,0 +1,20 @@
+.weter {
+    height: 17rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.boxy {
+    border: none;
+    border-bottom: 2px solid orangered;
+}
