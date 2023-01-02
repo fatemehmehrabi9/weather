@@ -6,7 +6,7 @@
 
 			let cityName = document.querySelector(".input").value;
 
-			fetch(`http://api.weatherapi.com/v1/current.json?key=b387aea5193e49c59a8142534221711&q=${cityName}&aqi=no`)
+			fetch(`http://api.weatherapi.com/v1/current.json?key=7547be5150a34989b67184641221712&q=${cityName}&aqi=no`)
 				.then(res => res.json())
 				.then(data =>
 					app.innerHTML = `
